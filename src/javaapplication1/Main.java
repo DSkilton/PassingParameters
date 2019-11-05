@@ -27,5 +27,17 @@ public static void dataTypes(String name, int age, char initial,
                                 + "Char: " + initial + "\n"
                                 + "is Happy? " + isHappy + "\n");
 }
+
+public static void inttest(){
+    int age = 12;
+    
+    if((age > 0) && (age < 12)){//if age is greater than 0 but less than 12
+        System.out.print("Age is less than teens");//
+    } else if ((age > 12) && (age < 20)) {
+        System.out.print("Age is teens");//
+    } else {
+        System.out.print("Age is greater than teens");//
+    }
+}
     
 }// end of class 
